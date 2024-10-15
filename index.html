@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Assignment</title>
+
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+        table{
+            margin: 120px 0px 0px 300px ;
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+        table th{
+            font-size:  16px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table td{
+            font-size: 15px;
+        }
+        thead{
+            background-color: yellow;
+        }
+        tbody tr th{
+            background-color: yellow;
+        }
+        .home-column{
+            width: 160px;
+            background-color: pink;
+            font-size: 20px;
+        }
+        .time{
+            background-color: lightgray;
+        }
+    </style>
+
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6">Final Examination Schedule - Fall 2008</th>
+        </tr>      
+      </thead>
+      <tbody>
+        <tr>
+          <th></th>
+          <th>Monday Dec.15</th>
+          <th>Tuesday Dec.16</th>
+          <th>Wednesday Dec.17</th>
+          <th>Thursday Dec.18</th>
+          <th class="home-column" rowspan="5" >HOME</th>
+        </tr>
+        <tr>
+          <td class="time">8.00 a.m</td>
+          <td>Data Structures</td>
+          <td>Algorithms</td>
+          <td>Computer Networks</td>
+          <td>Database Systems</td>
+        </tr>
+        <tr>
+          <td class="time">10.00 a.m</td>
+          <td>Operating System</td>
+          <td>Artificial Intelligence</td>
+          <td>Software Engineering</td>
+          <td>Web Development</td>
+ 
+        </tr>
+        <tr>
+          <td class="time">1.00 p.m</td>
+          <td>Machine Learning</td>
+          <td>Cyber Security</td>
+          <td>Mobile Computing</td>
+          <td>Human-Computer Interaction</td>
+
+        </tr>
+        <tr>
+          <td class="time">3.00 p.m</td>
+          <td>Big Data Analytics</td>
+          <td>Cloud Computing</td>
+          <td>Parallel Computing</td>
+          <td>Computer Graphics</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
